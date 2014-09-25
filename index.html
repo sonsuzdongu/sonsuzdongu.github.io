@@ -3,10 +3,136 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Sonsuzdöngü - Özgür Yazılım Projeleri</title>
+        <style>
+            body {
+                margin:0; padding: 0; background: #363636;
+            }
+
+            #container {
+                margin: 20px;
+                overflow: auto;
+            }
+
+            #container > img {
+                float: left;
+            }
+
+
+            #projects {
+                float: left;
+                color: #B0B0B0;
+            }
+
+            #projects h1 {
+                font-style: italic;
+                font-size: 24px;
+            }
+
+            #projects em {
+                border-bottom: 1px dotted #BBB;
+            }
+
+
+            #projects p{
+                margin: 25px 0;
+            }
+
+            #projects p strong{
+                display: block;
+                color: #E0E0E0;
+                text-shadow: 1px 1px 0px rgba(138,152,140, 1);
+            }
+
+
+            #projects p span{
+                text-indent: 20px;
+                display: block;
+            }
+
+
+            #projects p a{
+                color: #eac66e;
+                display: inline-block;
+                text-indent: 20px;
+            }
+
+
+            @media screen and (max-width: 1000px) { 
+                #container {
+                    text-align: center;
+                }
+
+
+                #container img,
+                #projects {
+                    float: none;
+                }
+            }
+
+
+
+
+        </style>
     </head>
-    <body style="margin:0; padding: 0; background: #363636">
-        <div style="margin: 20px; text-align: center">
+    <body>
+        <div id="container">
             <img src="img/ottocat.png">
+           
+
+            <div id="projects">
+                <h1>Sonsuzdongu &lt;3 Free Software</h1>
+
+                <em>These are our open source projects</em>
+
+                <p>
+                    <strong>Muhafız: Guard your codebase from bad codes! </strong>
+                    <span>
+                        A tool to configure git client and server to run some checkers on your codebase
+                    </span>
+                    <a href="https://github.com/sonsuzdongu/muhafiz">https://github.com/sonsuzdongu/muhafiz</a>
+                </p>
+
+
+                <p>
+                    <strong>Corona-Dice: Dice rolling example with Corona</strong>
+                    <span>
+                        A simple example by our trainee which demonstrates a dice roll on Corona mobile game framework.
+                    </span>
+                    <a href="https://github.com/sonsuzdongu/corona-dice">https://github.com/sonsuzdongu/corona-dice</a>
+                </p>
+
+
+                <p>
+                    <strong>Haller.php: PHP Port of @sercaneraslan's Haller.js</strong>
+                    <span>
+                        A PHP library which handles Turkish suffixes
+                    </span>
+                    <a href="https://github.com/sonsuzdongu/haller.php">https://github.com/sonsuzdongu/haller.php</a>
+                </p>
+
+
+                <p>
+                    <strong>get-http-resources.js: A PhantomJS Script  to check insecure http resources on https pages</strong>
+                    <span>
+                        A simple script which checks 'https' web page, and search for 'http' content in it
+                    </span>
+                    <a href="https://github.com/sonsuzdongu/get-http-resources.js">https://github.com/sonsuzdongu/get-http-resources.js</a>
+                </p>
+
+
+
+                <p>
+                    <strong>telnet-nodejs: JS file of our famous(!) recruiting application</strong>
+                    <span>
+                        Codes behind "telnet sonsuzdongu.com 1453"
+                    </span>
+                    <a href="https://github.com/sonsuzdongu/telnet-nodejs">https://github.com/sonsuzdongu/telnet-nodejs</a>
+                </p>
+
+
+            </div>
+            
+
         </div>
     </body>
 </html>
